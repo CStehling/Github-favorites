@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Github Favorites</title>
+
+    <script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div id="app">
+
+    <header>
+        <h1>Github Favorites</h1>
+        <div class="github-search">
+            <!-- esse label é para acessibilidade ja qu os leitores de tela não conseguem ler o placeholder -->
+            <label class="sr-only" for="search">Usuário do Github</label>
+            <input id="search" type="text" placeholder="Usuário do Github">
+            <button>&plus;</button>
+        </div>
+    </header>
+    
+    <!-- tabelas -->
+    <table>
+        <!-- cabeçalho de tabelas -->
+        <thead>
+            <!-- criar linhas em tabelas -->
+            <tr>
+                <!-- criar colunas no "thead" -->
+                <th>Usuário</th>
+
+                <th>Repositórios</th>
+
+                <th>Seguidores</th>
+
+                <th></th>
+            </tr>
+        </thead>
+        <!-- corpo das tabelas -->
+        <tbody></tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
